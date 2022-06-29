@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920869229751574
-    m_Hash: 3698904590
+      ticks: 637920078944489869
+    m_Hash: 1543898058
   m_LockFileStatus:
     m_FilePath: C:/Users/ralfonso2021/Documents/GitHub/project4/space invaders REUP/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920869229761583
-    m_Hash: 3203948965
+      ticks: 637920079100604854
+    m_Hash: 2888801861
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -127,11 +127,14 @@ m_PackageAssets:
         - 7.0.3
         - 7.0.4
         - 7.0.5
+        - 7.0.6
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         - 8.0.1
+        - 8.0.2
         - 9.0.0-pre.1
+        - 9.0.0-pre.3
         compatible:
         - 5.0.9
         - 5.0.10
@@ -341,10 +344,13 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
+        - 6.0.4
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 7.0.1
         - 8.0.0-pre.1
+        - 8.0.0-pre.3
         compatible:
         - 4.1.2
         - 4.1.3
@@ -543,6 +549,7 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
@@ -731,6 +738,8 @@ m_PackageAssets:
         - 1.15.16
         - 1.15.17
         - 1.15.18
+        - 1.17.0
+        - 1.17.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -752,6 +761,8 @@ m_PackageAssets:
         - 1.15.16
         - 1.15.17
         - 1.15.18
+        - 1.17.0
+        - 1.17.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -862,6 +873,7 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
         compatible:
         - 1.0.2
         - 1.0.6
@@ -893,6 +905,7 @@ m_PackageAssets:
         - 3.0.12
         - 3.0.13
         - 3.0.14
+        - 3.0.15
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -968,6 +981,7 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
+        - 2.0.16
         compatible:
         - 1.0.2
         - 1.0.3
@@ -987,7 +1001,8 @@ m_PackageAssets:
         - 2.0.12
         - 2.0.14
         - 2.0.15
-        verified: 2.0.15
+        - 2.0.16
+        verified: 2.0.16
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9

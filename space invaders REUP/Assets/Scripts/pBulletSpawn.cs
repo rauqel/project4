@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class pBulletSpawn : MonoBehaviour
 {
     Collider2D pBulletCollider;
-    public Image pBullet;
+    public GameObject pBullet;
+    public Rigidbody2D spawner;
+    public GameObject canvas;
 
     float bulletCooldown = 4f;
-
-    public PlayerController playerScript;
 
     // Start is called before the first frame update
     void Start()
@@ -25,13 +25,15 @@ public class pBulletSpawn : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            if(bulletCooldown >= 3f){
-                Instantiate(pBullet, transform.position, Quaternion.identity);
+            if(bulletCooldown >= 1f){
+                var bulletPos = new Vector2(spawner.position.x, spawner.position.y);
+                var createBullet = Instantiate(pBullet, bulletPos, Quaternion.identity);
+                createBullet.transform.SetParent(spawner.transform, true);
                 bulletCooldown = 0f;
             }
         }
 
-        if(bulletCooldown < 3f)
+        if(bulletCooldown < 1f)
         {
             bulletCooldown += Time.deltaTime;
         }
