@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920078944489869
-    m_Hash: 1543898058
+      ticks: 637920869229751574
+    m_Hash: 3698904590
   m_LockFileStatus:
     m_FilePath: C:/Users/ralfonso2021/Documents/GitHub/project4/space invaders REUP/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637920079100604854
-    m_Hash: 2888801861
+      ticks: 637920869229761583
+    m_Hash: 3203948965
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
