@@ -25,6 +25,6 @@ public class EnemyBullet : MonoBehaviour
 
     private void Update()
     {
-        eBullet.velocity = new Vector2(eBullet.velocity.x, 300.0f) * 8;
+        eBullet.velocity = new Vector2(eBullet.velocity.x, -300.0f) * 8;
     }
 }
