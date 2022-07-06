@@ -11,6 +11,7 @@ public class PlayerBullet : MonoBehaviour
     }
     private void Update()
     {
+
         pBullet.velocity = new Vector2(pBullet.velocity.x, 300.0f) * 8;
     }
 

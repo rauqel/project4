@@ -26,7 +26,7 @@ public class eBulletSpawn : MonoBehaviour
         {
             var bulletPos = new Vector2(spawner.position.x, spawner.position.y);
             var createBullet = Instantiate(eBullet, bulletPos, Quaternion.identity);
-            createBullet.transform.SetParent(spawner.transform, true);
+            createBullet.transform.SetParent(canvas.transform, true);
             bulletCooldown = 0f;
         }
 
